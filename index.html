@@ -2,9 +2,12 @@
 <html>
 <head>
   <title>Query Cafe</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
   <div id="main_content">
+    <h1>Query Cafe</h1>
+
     <ul id="tables">
       <li class="table">A</li>
       <li class="table">B</li>
@@ -20,6 +23,45 @@
       <button id="change_a">Change table A to blue</button>
       <button id="change_c">Change table C to green</button>
     </div>
+
+    <ul id="orders">
+      <li class="order">
+        <span>Selectable Soup</span>
+        <span class="right">
+          <input type="checkbox" />
+        </span>
+      </li>
+      <li class="order">
+        <span>removeClass Ribs</span>
+        <span class="right">
+          <input type="checkbox" />
+        </span>
+      </li>
+      <li class="order">
+        <span>DOM Dinges</span>
+        <span class="right">
+          <input type="checkbox" />
+        </span>
+      </li>
+      <li class="order">
+        <span>Cheesy Example #4</span>
+        <span class="right">
+          <input type="checkbox" />
+        </span>
+      </li>
+      <li class="order">
+        <span>Philly's Cheesesteak</span>
+        <span class="right">
+          <input type="checkbox" />
+        </span>
+      </li>
+    </ul>
+
+    <form id="new_order" action="">
+      <input type="text" placeholder="Order Name" />
+      <input type="submit" value="Place" />
+    </form>
+
   </div>
   <script
     src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
