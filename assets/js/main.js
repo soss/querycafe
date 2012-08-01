@@ -1,5 +1,9 @@
 $(function() {
 
+  $('#doesitwork').click(function() {
+    $('status').addClass('working');
+  });
+  
   $('#highlight_d').click(function() {
     $('.table:eq(4)').addClass('highlighted');
   });

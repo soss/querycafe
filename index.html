@@ -24,43 +24,59 @@
       <button id="change_c">Change table C to green</button>
     </div>
 
-    <ul id="orders">
-      <li class="order">
-        <span>Selectable Soup</span>
-        <span class="right">
-          <input type="checkbox" />
-        </span>
-      </li>
-      <li class="order">
-        <span>removeClass Ribs</span>
-        <span class="right">
-          <input type="checkbox" />
-        </span>
-      </li>
-      <li class="order">
-        <span>DOM Dinges</span>
-        <span class="right">
-          <input type="checkbox" />
-        </span>
-      </li>
-      <li class="order">
-        <span>Cheesy Example #4</span>
-        <span class="right">
-          <input type="checkbox" />
-        </span>
-      </li>
-      <li class="order">
-        <span>Philly's Cheesesteak</span>
-        <span class="right">
-          <input type="checkbox" />
-        </span>
-      </li>
-    </ul>
+    <div id="orders_container">
+      <ul id="orders">
+        <li class="order">
+          <span>Selectable Soup</span>
+          <span class="right">
+            <input type="checkbox" />
+          </span>
+        </li>
+        <li class="order">
+          <span>removeClass Ribs</span>
+          <span class="right">
+            <input type="checkbox" />
+          </span>
+        </li>
+        <li class="order">
+          <span>DOM Dinges</span>
+          <span class="right">
+            <input type="checkbox" />
+          </span>
+        </li>
+        <li class="order">
+          <span>Cheesy Example #4</span>
+          <span class="right">
+            <input type="checkbox" />
+          </span>
+        </li>
+        <li class="order">
+          <span>Philly's Cheesesteak</span>
+          <span class="right">
+            <input type="checkbox" />
+          </span>
+        </li>
+      </ul>
 
-    <form id="new_order" action="">
-      <input id="order_name" type="text" placeholder="Order Name" />
-      <input type="submit" value="Place" />
-    </form>
+      <form id="new_order" action="">
+        <input id="order_name" type="text" placeholder="Order Name" />
+        <input type="submit" value="Place" />
+      </form>
+    </div>
+
+    <div id="example">
+      <p>This interface is full of bugs. Your job is to find and fix
+      them.</p>
+
+      <button id="doesitwork">Does it work?</button>
+      <span id="status">Yes!</span>
+
+      <br /><br />
+      <p>Brought to you by <a
+        href="http://github.com/soss">SOSS</a>.</p>
+    </div>
+
+    <div class="clear"></div>
 
   </div>
   <script

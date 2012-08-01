@@ -33,15 +33,47 @@ ul#tables li.highlighted {
   border: 2px solid #66b5ff;
 }
 
-ul#orders {
-  list-style: none;
+#tables_controls {
+  margin-bottom: 10px;
+}
+
+#orders_container {
+  float: left;
   width: 300px;
   padding: 10px;
   border: 2px solid #222;
+  margin-top: 10px;
+}
+
+ul#orders {
+  list-style: none;
+  padding: 0;
 }
 
 ul#orders li {
   margin: 5px;
+}
+
+#example {
+  width: 512px;
+  float: left;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px 0 0 20px;
+}
+
+#status {
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  display: inline-block;
+  color: #eee;
+  text-align: center;
+}
+
+#status.working {
+  background-color: lime;
+  color: black;
 }
 
 .done {
@@ -58,4 +90,8 @@ ul#orders li {
 
 .blue {
   background-color: #55d !important;
+}
+
+.clear {
+  clear: both;
 }
