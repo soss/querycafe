@@ -29,6 +29,10 @@ ul#tables li {
   margin: 10px;
 }
 
+ul#tables li.highlighted {
+  border: 2px solid #66b5ff;
+}
+
 ul#orders {
   list-style: none;
   width: 300px;
@@ -46,4 +50,12 @@ ul#orders li {
 
 .right {
   float: right;
+}
+
+.green {
+  background-color: green !important;
+}
+
+.blue {
+  background-color: #55d !important;
 }
