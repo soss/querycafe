@@ -39,6 +39,17 @@ $(function() {
   });
 });
 
+$(document).ready(function() {
+	$('.order input[type="checkbox"]').each(function(e) {
+    	if ($(this).attr('checked')) {
+   	   checkoff(this);
+  	  } else {
+  	    uncheck(this);
+    	}
+	});
+});
+	
+
 var checkoff = function(el) {
   $(el).parent().parent().addClass('done');
 }
