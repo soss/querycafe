@@ -5,7 +5,7 @@ $(function() {
   });
   
   $('#highlight_d').click(function() {
-    $('.table:eq(4)').addClass('highlighted');
+    $('.table:eq(3)').addClass('highlighted');
   });
 
   $('#highlight_all').click(function() {
