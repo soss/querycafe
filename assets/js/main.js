@@ -17,7 +17,7 @@ $(function() {
   });
 
   $('#change_a').click(function() {
-    $(this).addClass('blue');
+    $('.table:eq(0)').addClass('blue');
   });
 
   $('#change_c').click(function() {
@@ -34,7 +34,7 @@ $(function() {
 
   $('#new_order').on('submit', function(e) {
     e.preventDefault();
-    $('#orders').append('<li class="order">' + $('#order_name').val() + '</li>');
+    $('#orders').append('<li class="order">' + '<span>' + $('#order_name').val() + '</span> <span class="right"><input type="checkbox" /></span></li>');
     $('#order_name').val('');
   });
 });
