@@ -21,7 +21,7 @@ $(function() {
   });
 
   $('#change_c').click(function() {
-    $(this).addClass('.green');
+    $('.table:eq(2)').addClass('green');
   });
 
   $('.order input[type="checkbox"]').live('click', function(e) {
