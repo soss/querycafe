@@ -17,7 +17,7 @@ $(function() {
   });
 
   $('#change_a').click(function() {
-    $(this).addClass('blue');
+    $('.table:eq(0)').addClass('blue');
   });
 
   $('#change_c').click(function() {
