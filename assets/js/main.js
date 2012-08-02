@@ -13,7 +13,7 @@ $(function() {
   });
 
   $('#remove_last').click(function() {
-    $('.table :last').remove();
+    $('.table:last').remove();
   });
 
   $('#change_a').click(function() {
