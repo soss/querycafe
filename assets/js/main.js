@@ -40,9 +40,9 @@ $(function() {
 });
 
 var checkoff = function(el) {
-  el.addClass('done');
+  $(el).parent().parent().addClass('done');
 }
 
 var uncheck = function(el) {
-  el.removeClass('done');
+  $(el).parent().parent().removeClass('done');
 }
