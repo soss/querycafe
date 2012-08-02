@@ -9,7 +9,7 @@ $(function() {
   });
 
   $('#highlight_all').click(function() {
-    
+    $('.table').addClass('highlighted');
   });
 
   $('#remove_last').click(function() {
