@@ -1,7 +1,7 @@
 $(function() {
 
   $('#doesitwork').click(function() {
-    $('status').addClass('working');
+    $('#status').addClass('working');
   });
   
   $('#highlight_d').click(function() {
